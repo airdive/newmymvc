@@ -1,0 +1,12 @@
+<mymvc>
+	<actions>
+		<action name="listString" class="controller.ListString">
+			<result name="toListJSP">
+				/listString.jsp
+		    </result>
+			<result name="toShowUserinfoList" type="redirect">
+				showUserinfoList.ghy
+			</result>
+		</action>
+	</actions>
+</mymvc>

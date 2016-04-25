@@ -1,0 +1,9 @@
+<mymvc>
+	<actions>
+		<action name="showUserinfoList" class="controller.ShowUserinfoList">
+			<result name="toShowUserinfoListJSP">
+				/showUserinfoList.jsp
+			</result>
+		</action>
+	</actions>
+</mymvc>
